@@ -1,7 +1,179 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello ma Queen</h1>
-<p>My website on GitHub Pages. It works!</p>
-</body>
-</html>
+<HTML>
+    <HEAD>
+        <TITLE>Mars One</TITLE>
+        <META http-equiv="refresh" <!--content="5">-->
+        <!--<LINK rel="stylesheet" type="text/css" href="styles.css">-->
+        <!--<BASE href="http://fiot.kpi.ua/" target="_blank">-->
+        <STYLE>
+            .navbar {
+                overflow: hidden;
+                background-color: #4f0000;
+                position: fixed; /* Set the navbar to fixed position */
+                top: 0; /* Position the navbar at the top of the page */
+                width: 100%; /* Full width */
+                left: 0px;
+                z-index: 100;
+                }
+            .navbar a {
+              float: right;
+              display: block;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 20px 16px;
+              text-decoration: none;
+              font-size: 17px;
+              font-style: normal;
+              font-weight: bold;
+              font-family: "Times New Roman", Times, serif;
+              margin-right: 50px;
+
+            } 
+            .navbar a:hover {
+                background: #ddd;
+                color: black;
+            }
+            .navbar img{
+                position: absolute;
+                left: 20px;
+                top: 0px;
+                height: 60px;
+                width: 200px;
+            }
+            .navbar img:hover{
+                opacity: 0.9;
+                
+            }
+            #imglink{
+            background: #4f0000;
+            }
+            .description{
+                position: absolute;
+                top: 60px;
+                background-color: black;
+                height: 60px;
+                width: 100%;
+                left: 0px;
+            }
+            .description a{
+              color: white;
+              float: center;
+              display: block;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 20px 16px;
+              font-size: 17px;
+              font-style: normal;
+              font-weight: bold;
+              font-family: "Times New Roman", Times, serif;
+            }
+            #img{
+                position: absolute;
+                top: 120px;
+                left: 0px;
+                height: 100%;
+                width: 100%;
+            }
+            .description-text{
+                position: absolute;
+                top: 120px;
+                background: rgba(0, 0, 0, 0.3);
+                margin: 30px;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #ffffff;
+                text-indent: 1.5em;
+                text-align: justify;
+                padding: 15px;
+            }
+            .form-row {        
+                margin-bottom: 8px;
+                overflow: hidden;
+            }
+            .form-row input {
+                float: right;
+                height: 19px;
+                line-height: 19px;
+                margin: 0px;
+                padding: 0px 5px;
+                width: 287px;
+                border: 1px solid #ABADB3;
+            }
+            .reg-form {
+                top: 20%;
+                left: 30%;
+                position: relative;
+                width: 416px;
+                margin: 0 auto;
+            }     
+            .form-row textarea {
+                height: 90px;
+                line-height: 16px;
+                font-size: 12px;
+                padding: 0px 5px;
+                width: 404px;
+                border: 1px solid #ABADB3;
+            }
+            .form-row input[type=submit] {
+                padding:5px;
+                height:25px;
+                width:100%;
+                line-height: 10px;
+                background: #337AB7;
+                color:white;
+            }
+            .form-row input[type=submit]:hover {
+                background:#286090;
+            }
+            * {
+                font-family:arial;
+                font-size:10pt;
+            }            
+        </STYLE>
+    </HEAD>    
+    <BODY>  
+        <header>
+            <div class = 'navbar'>
+                  <a href="lab 1bContacts.html">Contacts</a>
+                  <a href="lab 1b about_mars.html">About Mars</a>
+                  <a href="lab 1bhome.html">About Mars One</a>
+                  <a href="#REG">Registrarion</a>
+                  <a id='imglink' href="https://www.mars-one.com/"><img src="pic/eb590ad6c46a5c0e3679420af00d4567.png" width="600" height="600"></a>
+            </div>
+        </header>  
+        <img id = 'img' src='pic/nasa-opportunity-mars-rover.0.jpg'>
+        <div class='description'>
+            <a name = 'REG'>Реєстрація</a>
+        </div>
+        	<form method='post' class='reg-form'>
+
+		<div class='form-row'>
+			<label for='form_fname'>First Name: </label>
+    		<input type='text' id='form_fname' name='first_name'>
+  		</div>
+
+  		<div class='form-row'>
+    		<label for='form_sname'>Second Name: </label>
+    		<input type='text' id='form_sname' name='second_name'>
+		</div>
+
+		<div class='form-row'>
+			<label for='form_email'>Email: </label>
+			<input type='email' id='form_email' name='email'>
+		</div>
+
+		<div class='form-row'>
+			<label for='form_phone'>Phone: </label>
+			<input type='text' id='form_phone' name='phone'>
+		</div>
+
+		<div class='form-row'>
+			<label for='form_about'>About myself: </label>
+			<textarea id='form_about' name='about'></textarea>
+		</div>
+
+		<div class="form-row">
+			<input type="submit" value='Go'>
+		</div>
+        </div>
+    </BODY>
+</HTML>
