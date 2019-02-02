@@ -21,39 +21,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="https://t.me/AndreyYudov">Andrey Yudov</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
+<nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+      <a class="navbar-brand" href="https://t.me/AndreyYudov">Andrey Yudov</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
 
-   <div class="collapse navbar-collapse" id="navbarColor01">
-     <ul class="navbar-nav mr-auto">
-       <li class="nav-item">
-         <a class="nav-link" href="#">About Me</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link" href="#">Education</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link" href="#">Professional experience</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link" href="#">Proficiencies</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link" href="#">Interests</a>
-       </li>
-     </ul>
-     <a class="btn btn-dark" href="https://drive.google.com/open?id=19-bLpoF7jy57aPUH6kGkBI_yiWMiKI71" target="_blank">PDF</a>
-   </div>
+     <div class="collapse navbar-collapse" id="navbarColor01">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item">
+           <a class="nav-link" href="#">About Me</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#education">Education</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Professional experience</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Proficiencies</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Interests</a>
+         </li>
+       </ul>
+       <a class="btn btn-dark" href="https://drive.google.com/open?id=19-bLpoF7jy57aPUH6kGkBI_yiWMiKI71" target="_blank">PDF</a>
+     </div>
 </nav>
-
+<div class="spacer">
+    &nbsp;
+</div>
+<div class="spacer">
+    &nbsp;
+</div>
+<div class="spacer">
+    &nbsp;
+</div>
 <div class="container">
-  <div class="row p-1">
+  <div class="row">
     <div class="col-sm-4">
       <div class="card text-white bg-dark">
-        <div class="card-header" align="center">Short Info</div>
+        <div class="card-header text-center">Short Info</div>
         <img src="img/AndreyYudov.jpg" class="w-75 img-fluid rounded mx-auto d-block" alt="My image">
           <div class="card-body">
             <h4 class="card-title">Andrey Yudov</h4>
@@ -66,27 +74,44 @@
       </div>
     </div>
     <div class="col-sm-8" id="about_me">
-      <h1 style="text-align: center;">Education background</h1>
       <div class="row">
-        <div class="p-3 col-sm-5 bg-dark text-white" align="justify">
-          <b>Kiev Polytechnic Institute (KPI)<br>Kiev, Ukraine<br></b>2016
-        </div>
-        <div class="p-3 col-sm-7 bg-light text-dark" align="justify">
-          <p>Third year student with full excellence based stipend. KPI is a leading engineering
-          university in Ukraine. 19 faculties, 9 educational and scientific institutes and 25,000+
-          students.</p>
-          <p>▴ <b>Main technical courses:</b> Algorithmic language, Object-oriented programming, System
-          programming, Architecture computer systems, Database management systems, Flexible
-          computerized systems, Theory of algorithms, Sensory systems, Web Technologies,
-          Computer Modeling, Back-end technologies.</p>
-          <p>▴ <b>Projects (available on my GitHub):</b> Recreated the 70's Atari game "Asteroids", using
-          C++ programming language. Built a smart robot, achieved walking from point A to
-          point B avoiding obstacles, with embedded advanced functions: calculate area, angles,
-          center of mass of objects, bypassing their perimeter. Designed circuits replication of
-          elementary logical and math operations. Website making. Server management.</p>
+        <div class="card bg-dark text-dark border-light">
+          <img class="card-img" src="img/b.jpg" alt="Card image">
+          <div class="card-img-overlay">
+            <p class="card-text">
+              <blockquote class="blockquote text-right">
+                <p class="mb-5 p-5">Look up at the stars and not down at your feet. Try to make sense of what you see, and wonder about what makes the universe exist. Be curious.</p>
+                <footer class="blockquote-footer p-5">Stephen Hawking</footer>
+              </blockquote>﻿
+            </p>
+          </div>
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="row mt-3" id="education">
+    <div class="col-sm-12">
+      <h1 class="text-center">Education background</h1>
+    </div>
+  </div>
+  <div class="row mt-1">
+    <div class="p-3 col-sm-5 bg-dark text-white text-justify">
+      <b>Kiev Polytechnic Institute (KPI)<br>Kiev, Ukraine<br></b>2016
+    </div>
+    <div class="p-3 col-sm-7 bg-light text-dark text-justify">
+      <p>Third year student with full excellence based stipend. KPI is a leading engineering
+      university in Ukraine. 19 faculties, 9 educational and scientific institutes and 25,000+
+      students.</p>
+      <p>▴ <b>Main technical courses:</b> Algorithmic language, Object-oriented programming, System
+      programming, Architecture computer systems, Database management systems, Flexible
+      computerized systems, Theory of algorithms, Sensory systems, Web Technologies,
+      Computer Modeling, Back-end technologies.</p>
+      <p>▴ <b>Projects (available on my GitHub):</b> Recreated the 70's Atari game "Asteroids", using
+      C++ programming language. Built a smart robot, achieved walking from point A to
+      point B avoiding obstacles, with embedded advanced functions: calculate area, angles,
+      center of mass of objects, bypassing their perimeter. Designed circuits replication of
+      elementary logical and math operations. Website making. Server management.</p>
   </div>
 </div>
 
