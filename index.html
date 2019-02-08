@@ -19,6 +19,15 @@
     <meta name="keywords" content="Andrey, Yudov, Андрей, Юдов, Андрій, python, C, C++, Arduino, Qt, developer, разработчик, розробник, програміст, программист, Андрей Николаевич Юдов">
     <meta name="author" content="Andrey Yudov">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+    #education::before, #prof_experience::before, #proficiencies::before{
+      display: block;
+    	content: "";
+    	height: 55px;
+    	margin: -55px 0 0;
+      }
+    </style>
 </head>
 
 <body>
@@ -40,7 +49,7 @@
              <a class="nav-link" href="#prof_experience">Professional experience</a>
            </li>
            <li class="nav-item">
-             <a class="nav-link" href="#">Proficiencies</a>
+             <a class="nav-link" href="#proficiencies">Proficiencies</a>
            </li>
            <li class="nav-item">
              <a class="nav-link" href="#">Interests</a>
@@ -67,7 +76,7 @@
           <div class="card-header text-center">Short Info</div>
           <img src="img/AndreyYudov.jpg" class="w-75 img-fluid rounded mx-auto d-block" alt="My image">
           <div class="card-body">
-            <h4 class="card-title">Andrey Yudov</h4>
+            <h6 class="card-title">Andrey Yudov</h6>
             <p><b>About: </b>3rd year student at <a href="https://kpi.ua/en" target="_blank">university</a></p>
             <p><b>Domain: </b>Computer sciences</p>
             <p><b>Location: </b>Ukraine, <a href="https://goo.gl/maps/ctDU2Vt6aDs" target="_blank">Kyiv</a></p>
@@ -76,12 +85,12 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-8" id="about_me">
-        <div class="row pt-5">
+      <div class="col-sm-8 align-self-center" id="about_me">
+        <div class="row">
           <img class="card-img" src="img/b.jpg" alt="Card image" onmouseover="b.style.opacity='1';" onmouseout="b.style.opacity='0';">
         </div>
-        <div class="row pt-5">
-          <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-12 align-self-center">
             <h3 id="b"class="text-center" style="color:#CDCDCD; opacity:0;" onmouseover="this.style.opacity='1';" onmouseout="this.style.opacity='0';">be greater than average</h3>
           </div>
         </div>
@@ -89,8 +98,8 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="row mt-0" id="education">
+  <div class="container" id="education">
+    <div class="row mt-0">
       <div class="col-sm-4" style="background-color: #ffffff;"></div>
       <div class="p-2 col-sm-8" style="background-color: #3B88DB;">
         <h1 class="text-right text-light">Education background</h1>
@@ -138,8 +147,8 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="row mt-0" id="prof_experience">
+  <div class="container" id="prof_experience">
+    <div class="row mt-0">
       <div class="col-sm-4" style="background-color: #ffffff;"></div>
       <div class="p-2 col-sm-8"style="background-color: #3B88DB;">
         <h1 class="text-right text-light">Professional experience</h1>
@@ -148,43 +157,137 @@
 
     <div class="row">
       <div class="p-3 col-sm-4 bg-dark text-light text-justify">
-        <b><a href="https://telegram.org/" target="_blank">Telegram</a> Bots<br>Developper<br></b>2018
+        <b><a href="https://telegram.org/" target="_blank">Telegram</a> Bots<br>Developper<br>Kyiv, Ukraine</b><br>2018
       </div>
       <div class="p-3 col-sm-7 bg-light text-dark text-justify">
         <p>Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed. My Bots are available on GitHub written in Python language.</p>
-        <p>▴ Bot-organizer for my groups in University.</p>
-        <p>▴ Bot-manager for Leroy Merlin Ukraine.</p>
+        <p>▴Bot-organizer for my groups in University.</p>
+        <p>▴Bot-manager for Leroy Merlin Ukraine.</p>
       </div>
-      <div class="p-3 col-sm-1 bg-light text-dark col-centered align-self-center">
-        <h5>6 mo.</h5>
+      <div class="p-3 col-sm-1 bg-white text-dark col-centered align-self-center">
+        <h6>6 mo.</h6>
       </div>
-
     </div>
 
     <div class="row">
       <div class="p-3 col-sm-4 bg-light text-dark text-justify">
-        <b><a href="https://www.best.eu.org/aboutBEST/structure/lbgView.jsp?lbginfo=kv" target="_blank">BEST Kyiv</a><br>"Baby"<br></b>2018
+        <b><a href="https://www.best.eu.org/aboutBEST/structure/lbgView.jsp?lbginfo=kv" target="_blank">BEST Kyiv</a><br>"Baby"<br>Kyiv, Ukraine<br></b>2018
       </div>
-      <div class="p-3 col-sm-8 bg-dark text-light text-justify">
+      <div class="p-3 col-sm-7 bg-dark text-light text-justify">
         <p><b>Board of European Students of Technology (BEST)</b> is a constantly growing
         non-profit and non-political organisation. Since 1989 BEST provide communication,
         co-operation and exchange possibilities for students all over Europe. Achieved "Baby" grade in summer 2018.</p>
-        <p>▴ Main organizer of a <a href="https://www.facebook.com/bookosourcKPI/">"Book Auction in KPI 2018"</a>.</p>
-        <p>▴ Logistics and IT responsible in <a href="http://ebec.best-kyiv.org/home">European BEST Engineering Competition in Kyiv 2018</a>.</p>
+        <p>▴Main organizer of a <a href="https://www.facebook.com/bookosourcKPI/">"Book Auction in KPI 2018"</a>.</p>
+        <p>▴Logistics and IT responsible in <a href="http://ebec.best-kyiv.org/home">European BEST Engineering Competition in Kyiv 2018</a>.</p>
+      </div>
+      <div class="p-3 col-sm-1 bg-white text-dark col-centered align-self-center">
+        <h6>12 mo.</h6>
       </div>
     </div>
 
     <div class="row">
       <div class="p-3 col-sm-4 bg-dark text-light text-justify">
-        <b><a href="https://www.leroymerlin.ua/" target="_blank">Leroy Merlin</a><br> Kiev, Ukraine<br>Interviewer, operator of questionnaires</b><br>2013 - 2017
+        <b><a href="https://www.leroymerlin.ua/" target="_blank">Leroy Merlin</a><br>Interviewer, operator of questionnaires<br> Kiev, Ukraine</b><br>2013 - 2017
       </div>
-      <div class="p-3 col-sm-8 bg-light text-dark text-justify">
+      <div class="p-3 col-sm-7 bg-light text-dark text-justify">
         <p>Part time assignments supporting the marketing team of Leroy Merlin, major chain of home improvement and DIY products.
-        <p>▴ Interviewed customers.</p>
-        <p>▴ Prepared surveys and optimized data entry.</p>
-        <p>▴ Transfered the results into an electronic database for further data processing.</p>
+        <p>▴Interviewed customers.</p>
+        <p>▴Prepared surveys and optimized data entry.</p>
+        <p>▴Transfered the results into an electronic database for further data processing.</p>
+      </div>
+      <div class="p-3 col-sm-1 bg-white text-dark col-centered align-self-center">
+        <h6>3 mo.</h6>
       </div>
     </div>
+
+    <div class="row">
+      <div class="p-3 col-sm-4 bg-light text-dark text-justify">
+        <b><a href="https://www.txrxlabs.org/" target="_blank">TXRX lalbs</a><br>Volunteer<br>Houston, USA<br></b>Summer 2016
+      </div>
+      <div class="p-3 col-sm-7 bg-dark text-light text-justify">
+        <p>Non profit Hackerspace for makers and professional use. Volunteered for shop maintenance and classes.</p>
+          <p>▴Obtained valuable hands-on experience with laser cutting, wood and metal working and machining.</p>
+          <p>▴Created and printed models on a FDM 3D printer.</p>
+      </div>
+      <div class="p-3 col-sm-1 bg-white text-dark col-centered align-self-center">
+        <h6>3 mo.</h6>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="p-3 col-sm-4 bg-dark text-light text-justify">
+        <b>Summer Camp<br>Leader<br>Dnepropetrovsk, Ukraine<br></b>Summer 2017
+      </div>
+      <div class="p-3 col-sm-7 bg-light text-dark text-justify">
+        <p>▴Educational work with children (10-12 y.o.).</p>
+        <p>▴Created daily schedule for the group (36 children), collaborated with team to create daily activities.</p>
+        <p>▴Organized cultural events with guitar and singing.</p>
+      </div>
+      <div class="p-3 col-sm-1 bg-white text-dark col-centered align-self-center">
+        <h6>1 mo.</h6>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="p-3 col-sm-4 bg-light text-dark text-justify">
+        <b><a href="https://bikehouston.org/">Bikehouston</a><br>Volunteer<br> Houston, USA<br></b>Summer 2016
+      </div>
+      <div class="p-3 col-sm-7 bg-dark text-light text-justify">
+        <p>Non profit organization promoting bicycle use in Houston.
+          <p>▴Supported office activities: Installed wireless networks, tested website for errors, processed user survey data.
+          <p>▴Documented bicycle path and dangerous road intersections in Houston.
+          <p>▴Participated in and interviewed participants during bicycle races in Houston.</p>
+      </div>
+      <div class="p-3 col-sm-1 bg-white text-dark col-centered align-self-center">
+        <h6>2 mo.</h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="proficiencies">
+    <div class="row mt-0">
+      <div class="col-sm-4" style="background-color: #3B88DB;"></div>
+      <div class="p-2 col-sm-8"style="background-color: #ffffff;">
+        <h1 class="text-right text-dark">Proficiencies</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="p-3 col-sm-4 bg-light text-dark text-justify">
+        <b>Languages</b>
+      </div>
+      <div class="p-3 col-sm-8 bg-dark text-light text-justify">
+        <p>English, French, Russian, Ukrainian</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="p-3 col-sm-4 bg-dark text-light text-justify">
+        <b>Computer languages</b>
+      </div>
+      <div class="p-3 col-sm-8 bg-light text-dark text-justify">
+        <p>Verilog HDL, C, C++, C#, Python, MySQL, Assembler, HTML, CSS, Java, PHP</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="p-3 col-sm-4 bg-light text-dark text-justify">
+        <b>Computer skills</b>
+      </div>
+      <div class="p-3 col-sm-8 bg-dark text-light text-justify">
+        <p>Qt, Quartus II, AutoCAD, CodeBlocks, SQL Database, Oracle Database, MongoDB, Visual Studio, Mathcad, PyCharm, ISIS Proteus</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="p-3 col-sm-4 bg-dark text-light text-justify">
+        <b>Other</b>
+      </div>
+      <div class="p-3 col-sm-8 bg-light text-dark text-justify">
+        <p>Microsoft Office, Atom, Git, Bootstrap 4</p>
+      </div>
+    </div>
+
   </div>
 
 </body>
