@@ -1,26 +1,25 @@
 <!DOCTYPE html>
-
 <html prefix="og: http://ogp.me/ns#">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
-    <title>Andrey Yudov</title>
+  <title>Andrey Yudov</title>
 
-    <meta property="og:title" content="Andrey Yudov. Short info and references.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://t.me/AndreyYudov">
-    <meta property="og:image" content="/img/pic.jpg">
+  <meta property="og:title" content="Andrey Yudov. Info and references.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://t.me/AndreyYudov">
+  <meta property="og:image" content="/img/pic.jpg">
 
-    <meta name="description" content="Andrey Yudov. Short info and references.">
-    <meta name="keywords" content="Andrey, Yudov, Андрей, Юдов, Андрій, python, C, C++, Arduino, Qt, developer, разработчик, розробник, програміст, программист, Андрей Николаевич Юдов">
-    <meta name="author" content="Andrey Yudov">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Andrey Yudov. Short info and references.">
+  <meta name="keywords" content="Andrey, Yudov, Андрей, Юдов, Андрій, python, C, C++, Arduino, Qt, developer, разработчик, розробник, програміст, программист, Андрей Николаевич Юдов">
+  <meta name="author" content="Andrey Yudov">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
+  <style>
     #education::before, #prof_experience::before, #proficiencies::before, #interests::before{
       display: block;
     	content: "";
@@ -28,31 +27,40 @@
     	margin: -55px 0 0;
       }
 
-      #myBtn {
-        display: none;
-        position: fixed;
-        bottom: 20px;
-        right: 30px;
-        z-index: 99;
-        font-size: 18px;
-        border: none;
-        outline: none;
-        background-color: red;
-        color: white;
-        cursor: pointer;
-        padding: 15px;
-        border-radius: 4px;
-      }
+    #about_me::before{
+      display: block;
+      content: "";
+      height: 75px;
+      margin: -75px 0 0;
+    }
 
-      #myBtn:hover {
-        background-color: #555;
-      }
-    </style>
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: #343A40;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 4px;
+      margin:53px;
+    }
+
+    #myBtn:hover {
+      background-color: #3B88DB;
+    }
+  </style>
 </head>
 
 <body>
+  <!-- Btn -->
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
+  <!-- Menu -->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #3B88DB;">
         <a class="navbar-brand" href="https://t.me/AndreyYudov" target="_blank">Andrey Yudov</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +70,7 @@
        <div class="collapse navbar-collapse" id="navbarColor01">
          <ul class="navbar-nav mr-auto">
            <li class="nav-item">
-             <a class="nav-link" href="#">About Me</a>
+             <a class="nav-link" href="#about_me">About Me</a>
            </li>
            <li class="nav-item">
              <a class="nav-link" href="#education">Education</a>
@@ -80,19 +88,22 @@
          <a class="btn btn-dark" href="https://drive.google.com/open?id=124WVL763RDMHrej5jJLKCMZohVrY_Ac4" target="_blank">PDF</a>
        </div>
   </nav>
-
-  <div class="spacer">
+  <!-- Spacers -->
+  <div>
+    <div class="spacer">
+        &nbsp;
+    </div>
+    <div class="spacer">
+        &nbsp;
+    </div>
+    <div class="spacer">
       &nbsp;
+    </div>
   </div>
-  <div class="spacer">
-      &nbsp;
-  </div>
-  <div class="spacer">
-    &nbsp;
-  </div>
-
-  <div class="container">
-    <div class="row">
+  <!-- Me -->
+  <div class="container"  id="about_me">
+      <div class="row">
+      <!-- Card -->
       <div class="col-sm-4 p-0">
         <div class="card text-light bg-dark rounded-0">
           <div class="card-header text-center">Short Info</div>
@@ -108,7 +119,8 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-8 align-self-center" id="about_me">
+      <!-- be greater than average -->
+      <div class="col-sm-8 align-self-center">
         <div class="row">
           <img class="card-img" src="img/b.jpg" alt="Card image" onmouseover="b.style.opacity='1';" onmouseout="b.style.opacity='0';">
         </div>
@@ -120,15 +132,16 @@
       </div>
     </div>
   </div>
-
+  <!-- Education -->
   <div class="container" id="education">
+    <!-- Тема -->
     <div class="row mt-0">
       <div class="col-sm-4" style="background-color: #ffffff;"></div>
       <div class="p-2 col-sm-8" style="background-color: #3B88DB;">
         <h1 class="text-right text-light">Education background</h1>
       </div>
     </div>
-
+    <!-- КПИ -->
     <div class="row mt-0">
       <div class="p-3 col-sm-4 bg-dark text-light text-justify">
         <b>Kiev Polytechnic Institute (KPI)<br>Kiev, Ukraine<br></b>2016
@@ -148,7 +161,7 @@
         elementary logical and math operations. Website making. Server management.</p>
       </div>
     </div>
-
+    <!-- Лицей КПИ -->
     <div class="row">
       <div class="p-3 col-sm-4 bg-light text-dark text-justify">
         <b>Polytechnic lyceum of KPI<br>Kiev, Ukraine<br></b>2014-2016
@@ -159,7 +172,7 @@
         <p>▴<b>Projects: </b>Participated in French language competition.</p>
       </div>
     </div>
-
+    <!-- Фр. институт -->
     <div class="row">
       <div class="p-3 col-sm-4 bg-dark text-light text-justify">
         <b>"Institut Francais Ukraine"</b>
@@ -169,15 +182,16 @@
       </div>
     </div>
   </div>
-
+  <!-- Experience -->
   <div class="container" id="prof_experience">
+    <!-- Topic -->
     <div class="row mt-0">
       <div class="col-sm-4" style="background-color: #ffffff;"></div>
       <div class="p-2 col-sm-8"style="background-color: #3B88DB;">
         <h1 class="text-right text-light">Professional experience</h1>
       </div>
     </div>
-
+    <!-- Telegram -->
     <div class="row">
       <div class="p-3 col-sm-4 bg-dark text-light text-justify">
         <b><a href="https://telegram.org/" target="_blank">Telegram</a> Bots<br>Developer<br>Kyiv, Ukraine</b><br>2018
@@ -191,7 +205,7 @@
         <h6>6 mo.</h6>
       </div>
     </div>
-
+    <!-- BEST Kyiv -->
     <div class="row">
       <div class="p-3 col-sm-4 bg-light text-dark text-justify">
         <b><a href="https://www.best.eu.org/aboutBEST/structure/lbgView.jsp?lbginfo=kv" target="_blank">BEST Kyiv</a><br>"Baby"<br>Kyiv, Ukraine<br></b>2018
@@ -207,7 +221,7 @@
         <h6>12 mo.</h6>
       </div>
     </div>
-
+    <!-- Leroy Merlin -->
     <div class="row">
       <div class="p-3 col-sm-4 bg-dark text-light text-justify">
         <b><a href="https://www.leroymerlin.ua/" target="_blank">Leroy Merlin</a><br>Interviewer, operator of questionnaires<br> Kiev, Ukraine</b><br>2013 - 2017
@@ -222,7 +236,7 @@
         <h6>3 mo.</h6>
       </div>
     </div>
-
+    <!-- TXRX labs -->
     <div class="row">
       <div class="p-3 col-sm-4 bg-light text-dark text-justify">
         <b><a href="https://www.txrxlabs.org/" target="_blank">TXRX labs</a><br>Volunteer<br>Houston, USA<br></b>Summer 2016
@@ -236,7 +250,7 @@
         <h6>3 mo.</h6>
       </div>
     </div>
-
+    <!-- Summer Camp -->
     <div class="row">
       <div class="p-3 col-sm-4 bg-dark text-light text-justify">
         <b>Summer Camp<br>Leader<br>Dnepropetrovsk, Ukraine<br></b>Summer 2017
@@ -250,7 +264,7 @@
         <h6>1 mo.</h6>
       </div>
     </div>
-
+    <!-- Bikehouston -->
     <div class="row">
       <div class="p-3 col-sm-4 bg-light text-dark text-justify">
         <b><a href="https://bikehouston.org/" target="_blank">Bikehouston</a><br>Volunteer<br> Houston, USA<br></b>Summer 2016
@@ -266,15 +280,16 @@
       </div>
     </div>
   </div>
-
+  <!-- Proficiencies -->
   <div class="container" id="proficiencies">
+    <!-- Topic -->
     <div class="row mt-0">
       <div class="col-sm-4" style="background-color: #3B88DB;"></div>
       <div class="p-2 col-sm-8"style="background-color: #ffffff;">
         <h1 class="text-right text-dark">Proficiencies</h1>
       </div>
     </div>
-
+    <!-- Languages -->
     <div class="row">
       <div class="p-3 col-sm-4 bg-light text-dark text-justify">
         <b>Languages</b>
@@ -283,7 +298,7 @@
         <p>English, French, Russian, Ukrainian</p>
       </div>
     </div>
-
+    <!-- Computer languages -->
     <div class="row">
       <div class="p-3 col-sm-4 bg-dark text-light text-justify">
         <b>Computer languages</b>
@@ -292,7 +307,7 @@
         <p>Verilog HDL, C, C++, C#, Python, MySQL, Assembler, HTML, CSS, Java, PHP</p>
       </div>
     </div>
-
+    <!-- Computer skills -->
     <div class="row">
       <div class="p-3 col-sm-4 bg-light text-dark text-justify">
         <b>Computer skills</b>
@@ -301,7 +316,7 @@
         <p>Qt, Quartus II, AutoCAD, CodeBlocks, SQL Database, Oracle Database, MongoDB, Visual Studio, Mathcad, PyCharm, ISIS Proteus</p>
       </div>
     </div>
-
+    <!-- Other -->
     <div class="row">
       <div class="p-3 col-sm-4 bg-dark text-light text-justify">
         <b>Other</b>
@@ -310,17 +325,17 @@
         <p>Microsoft Office, Atom, Git, Bootstrap 4, Telegram API</p>
       </div>
     </div>
-
   </div>
-
+  <!-- Interests -->
   <div class="container" id="interests">
+    <!-- Topic -->
     <div class="row mt-0">
-      <div class="col-sm-4" style="background-color: #ffffff;"></div>
+            <div class="col-sm-4" style="background-color: #ffffff;"></div>
       <div class="p-2 col-sm-8"style="background-color: #3B88DB;">
         <h1 class="text-right text-light">Interests</h1>
       </div>
     </div>
-
+    <!-- Technology -->
     <div class="row">
       <div class="p-3 col-sm-4 bg-dark text-light text-justify">
         <b>Technology</b>
@@ -336,7 +351,7 @@
           <p>▴Making automatic systems using Arduino microprocessors.</p>
       </div>
     </div>
-
+    <!-- Other -->
     <div class="row">
       <div class="p-3 col-sm-4 bg-light text-dark text-justify">
         <b>Other</b>
@@ -351,8 +366,8 @@
           <p>▴BEST, Achieved "Baby" grade</p>
       </div>
     </div>
-
   </div>
+  <!-- Footer -->
   <div class="container-fluid">
     <div class="row p-2" style="background-color: #3B88DB;">
       <div class="col 2 p-0">
@@ -377,12 +392,12 @@
 
     </div>
   </div>
-
+  <!-- Footer -->
   <footer>
     <div class="footer-copyright text-right text-light py-3 pr-4 bg-primary">© 2019 Copyright: Andrey Yudov</div>
      <!-- style="background-color: #3B88DB;" -->
   </footer>
-
+  <!-- Btn script -->
   <script>
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function() {scrollFunction()};
