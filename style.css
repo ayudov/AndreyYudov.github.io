@@ -1,0 +1,5 @@
+#rus:hover,
+#en:hover,
+#pdf:hover {
+  transform: scale(1.1);
+}
